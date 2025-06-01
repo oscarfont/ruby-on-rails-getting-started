@@ -1,24 +1,30 @@
-# README
+# Ruby On Rails Getting Started 🚀
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project follows the [Ruby on Rails Getting Started Guide](https://guides.rubyonrails.org/getting_started.html), covering chapters 1-17 (excluding 16).
 
-Things you may want to cover:
+## Core Versions
+- Ruby: `3.4.4`
+- Rails: `8.0.2`
 
-* Ruby version
+## Quick Start 🏃‍♂️
+```bash
+# Setup database
+rails db:create
+rails db:migrate
 
-* System dependencies
+# Run tests
+rails test
+```
 
-* Configuration
+## Dependencies 📦
 
-* Database creation
+### Core Requirements
+- SQLite3 (>= 2.1)
+- Node.js
+- Puma (>= 5.0)
+- Image Processing (~> 1.2)
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Rails frontend tooling
+- Importmap for JS management
+- Hotwire (Turbo + Stimulus)
+- Propshaft asset pipeline
